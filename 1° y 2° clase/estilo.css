@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+}
+
+    
+
+table {
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden; 
+    
+}
+
+header{
+    background-color: #3ec1d3;
+    height: 100%;
+}
+
+a {
+    text-decoration: none; 
+    background-color: #3ec1d3;
+    color: inherit;  
+}
+ 
+.table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            padding: 7px;
+        }
+
+        td{
+            text-align: center;
+        }

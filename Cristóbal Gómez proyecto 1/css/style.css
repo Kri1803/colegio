@@ -1,0 +1,92 @@
+.Mision{
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    bottom: 0%;
+    right: 0%;
+}
+.Vision{
+    background-color: white;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 300px;
+    bottom: 25%;
+    left: 0%;
+}
+.barra-alta {
+    background-color: #8c450f; 
+    color: white;
+    padding: 9px 0;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid black;
+}
+.Botones-pag-principal{
+    background-color: #8c450f;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    
+}
+.Registro{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(6, 50, 126);
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.Galeria{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(6, 50, 126);
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.Talleres{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(6, 50, 126);
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.Boton-Mision{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(6, 50, 126);
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.Boton-Vision{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(6, 50, 126);
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.seccion-fondo {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/entrada.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh; 
+    display: flex;
+    flex-direction: column; /* Para que el H1 y el P se apilen */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.Logo{
+position: fixed;
+top: 0%;
+left: 0%;
+}
+.Botones-centro{
+padding: 9px 0;
+font-size: 40px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <div id="Logo">
+        <img src="logo-ucsc-color.png" width="100" height=50>
+        </div>
+        <meta charset="UTF-8">
+        <title>Registro Completo De Proyectos</title>
+        <link rel="stylesheet" href="pagina.css">
+        <link href="ucsc.png"  rel="stylesheet">
+    </head>
+    <body>
+        <h1>Registro completo de Proyectos</h1>
+        <form>
+            
+            <fieldset>
+                <legend>Datos del proyecto</legend>
+                <!--Nombre-->
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50">
+                <br><br>
+                <!--RUT-->
+                <label for="rut">Rut/matricula</label>
+                <input type="text" id="rut" name="rut" pattern="\d{8,9}" title="Solo numeros, 8 0 9 digitos" required>
+                <br><br>
+                <!--Correo electronico-->
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" name="correo" pattern="^[A-Z0-9._%+-][A-Z0-9.-]+\.[A-Z]{2,4}$" required >
+                
+                <br><br>
+                <!--Telefono-->
+                <label for="telefono">Telefono</label>
+                <input type="telefono" id="telefono" name="telefono" pattern="\d{8,9}" title="Debe tener 9 digitos" placeholder="ej:958695814">
+                <br><br>
+                <!--Edad-->
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" name="edad" min="16" max="100" required>
+                <br><br>
+
+                <fieldset>
+                    <legend>Información Academica</legend>
+                    <!--Institución-->
+                    <label for="institución">Institución</label>
+                    <input type="text" id="Institución" name="institución" required>
+                    <br><br>
+                    <!--Carrera-->
+                    <label for="carrera">Carrera</label>
+                    <input type="text" id="Carrera" name="Carrera">
+                    <br><br>
+                    <!--Año ingreso-->
+                    <label for="Año ingreso">Año de ingreso</label>
+                    <input type="date" id="Año ingreso" name="Año ingreso">
+                    <br><br>
+                    <!--Año actual-->
+                    <label for="Año carrera">Año carrera actual</label>
+                    <input type="text" id="Año carrera" name="Año carrera" placeholder="ej:1er año, 2do año, etc..">
+                    <br><br>
+                    <!--Numero de emergencia-->
+                    <label for="Numero de emergencia">Numero de emergencia</label>
+                    <input type="tel" id="Numero de emergencia" name="Numero de emergencia" placeholder="Ej:923456789">
+                    <br><br>
+                    <!--Dirección-->
+                    <label for="Dirección">Dirección</label>
+                    <input type="direccion" id="Dirección" name="Dirección" placeholder="ej:calle arauco 131..">
+                    <br><br>
+                    <!--Sede institucional-->
+                    <label for="Sede">Sede institucional</label>
+                    <input type="Sede" id="Sede institucional" name="Sede institucional" placeholder="Ej: Sede chillan, Casa central">
+                    <br><br>
+                    <!--Situacion actual carrera-->
+                    <label for="Situacion actual">Situacion actual carrera</label>
+                    <br><br>
+                    <label for="Estudiando">Estudiando</label>
+                    <input type="checkbox" id="estudiando" name="Estudiando">
+                    <label for="Congelada">Congelada</label>
+                    <input type="checkbox" id="Congelada" name="Congelada">
+                    <label for="Renunciado">Renunciado</label>
+                    <input type="checkbox" id="Renunciado" name="Renunciado">
+                    <br><br>
+
+                </fieldset>
+            </fieldset>
+            <input type="submit" value="Subir formulario" id="subir">
+        </form>
+    </body>
+</html>
